@@ -1,0 +1,28 @@
+# Private files - never commit
+.local/
+dist/
+*.wgt
+*.tpk
+*.p12
+*.pwd
+*.pem
+*.key
+*.crt
+*.csr
+
+# Build artifacts
+node_modules/
+bin/
+obj/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
